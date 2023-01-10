@@ -28,8 +28,8 @@
     border: 1px solid black;
     display: flex;
     flex: 0 0 auto;
-    height:31.25px;
-    width:31.25px;
+    /* height:31.25px; */
+    /* width:31.25px; */
 
    }
 
