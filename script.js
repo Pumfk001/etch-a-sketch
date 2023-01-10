@@ -1,6 +1,6 @@
 
 const grid = document.querySelector('.grid');
-const gridSize = 500;
+const gridSize = 600;
 
 
 function createGrid (userInput){
@@ -15,7 +15,7 @@ grid.appendChild(newPixels);
 }
 };
 
-createGrid(16);
+createGrid(20);
 
 const pixels = document.querySelectorAll('.pixel');
 pixels.forEach(pixel => {
