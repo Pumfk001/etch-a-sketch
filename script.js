@@ -7,14 +7,24 @@ function createGrid (userInput){
 
 for (let i = 0; i < userInput**2; i++){
 
-let pixels = document.createElement('div');
-pixels.classList.add('pixel');
-pixels.style.height = gridSize/userInput + 'px';
-pixels.style.width = gridSize/userInput + 'px';
-grid.appendChild(pixels);
+let newPixels = document.createElement('div');
+newPixels.classList.add('pixel');
+newPixels.style.height = gridSize/userInput + 'px';
+newPixels.style.width = gridSize/userInput + 'px';
+grid.appendChild(newPixels);
 }
 };
 
 createGrid(16);
+
+const pixels = document.querySelectorAll('.pixel');
+pixels.forEach(pixel => {
+    pixel.addEventListener('mouseover', () => {
+    pixel.style.backgroundColor = 'black';
+});
+});
+
+
+
 
 
