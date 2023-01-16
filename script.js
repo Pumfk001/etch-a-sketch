@@ -15,7 +15,7 @@ grid.appendChild(newPixels);
 }
 };
 
-createGrid(20);
+createGrid(100);
 
 const pixels = document.querySelectorAll('.pixel');
 pixels.forEach(pixel => {
