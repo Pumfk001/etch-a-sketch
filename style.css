@@ -16,26 +16,29 @@ body{
 
 .mainContainer{
     display:flex;
+    
     flex-direction: column;
     align-items: center;
     z-index: -1;
     background-color: RED;
     margin: auto;
     margin-top: 10px;
-    width: 610px;
-    height: 610px;
+    width: 620px;
+    height: 620px;
     justify-content: stretch; 
     border-radius: 20px;
-    padding-top: 5px;
+    /* padding-top: -5px; */
+    /* padding-bottom: 5px; */
 }
 
 /*button and title*/
 
 .buttonContainer{
     display: flex;
-    margin-top:0px; 
+    margin-top:2px; 
     justify-content: space-between;
-    width: 600px;
+    width: 616px;
+    margin-bottom: -7px;
 }
 
 h1{
@@ -61,11 +64,11 @@ button{
     width: 500px;
     height: 500px;
     display:flex;
-    flex-shrink: 1;
     flex-wrap:wrap;
     border-right: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
     background-color: white;
+    justify-self: center;
  }
 
 .pixel {
