@@ -38,7 +38,7 @@ document.querySelector('.clearAll').addEventListener('click', () => {
 
 // prompt grid size on button click
 document.querySelector('.gridSize').addEventListener('click',() => {
-    let userInput = prompt("Input grid height (between 1 and 100)");
+    let userInput = prompt("Input grid height (between 1 and 100)",40);
     console.log(userInput);
     if  (isNaN(userInput) || userInput === ''|| userInput === '0' || userInput === null){
         alert('Input must be a number, please try again');
